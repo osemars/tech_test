@@ -1,6 +1,8 @@
 {
+    "sourcecode": "main.py",
     "file": "results.csv",
     "plot": "plot.png",
+    "resampled_trial": "screeshot_resampled_trial.png",
     "unique_devices": [
         "monitor", 
         "laptop",
