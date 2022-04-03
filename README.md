@@ -12,4 +12,6 @@
 
 # Issues and Conclusion
 * Laptop might crash running the code for interpolation and resampling.
+* The result of my trial is screeshot_resampled_trial.png
+* The excel file could not be uploaded as it was a 2.19GB
 * I'll keep working on it, to fix it.
