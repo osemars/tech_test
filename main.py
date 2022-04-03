@@ -2,7 +2,7 @@ import pandas as pd
 import statistics as s
 
 # locations
-file_loc = "C:/Users/Ai2sh/Downloads/tech_test/tech_test/data/"
+file_loc = "C:/Users/Ai2sh/PycharmProjects/tech_test/"
 historical_loc = file_loc + "historical.csv"
 test_7_loc = file_loc + "test_7.csv"
 device_loc = file_loc + "device.json"
@@ -193,16 +193,16 @@ print(final_df.shape)
 # print(final_df)
 
 #Tried resampling and filling the na with interpolation but it kept producing massive .csv files
-# final_df.set_index('timestamp', inplace=True)
-# print(final_df.index)
+final_df.set_index('timestamp', inplace=True)
+print(final_df.index)
 # final_df_resampled = final_df[['current', 'active_power', 'reactive_power']].resample("0.3S").mean()
-# # final_df_interp = final_df.interpolate(method='linear', periods=209*3)
+# # final_df_interp = final_df_resampled.interpolate(method='linear', periods=209*3)
 # print(final_df_resampled.head(30))
 # print(final_df_resampled.shape)
-# final_df_resampled.to_csv(r'C:/Users/Ai2sh/Downloads/tech_test/tech_test/data/final_df2.csv', sep=',', header=True)
-final_df.to_csv(r'C:/Users/Ai2sh/Downloads/tech_test/tech_test/data/results.csv', sep=',', header=True, index=False)
+# final_df_resampled.to_csv(r'C:/Users/Ai2sh/PycharmProjects/tech_test/resampled_trial.csv', sep=',', header=True)
+final_df.to_csv(r'C:/Users/Ai2sh/PycharmProjects/tech_test/results.csv', sep=',', header=True, index=False)
 
-#plotting linegraph
+# plotting linegraph
 import matplotlib.pyplot as plt
 final_df['active_power'].plot()
 plt.show()
