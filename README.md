@@ -1,6 +1,6 @@
-# Dependencies
-* Pandas
-* MatPlotLib.
+# Introduction
+* Sorce code is located in main.py
+* Dependencies are Pandas and MatPlotLib.
 
 # Data Processing
 * find_min_errs() and find_max_errs()were used to find all elements withing the columns > 10000 or < -10000.
