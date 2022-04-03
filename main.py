@@ -200,7 +200,7 @@ print(final_df.shape)
 # print(final_df_resampled.head(30))
 # print(final_df_resampled.shape)
 # final_df_resampled.to_csv(r'C:/Users/Ai2sh/Downloads/tech_test/tech_test/data/final_df2.csv', sep=',', header=True)
-final_df.to_csv(r'C:/Users/Ai2sh/Downloads/tech_test/tech_test/data/final_df.csv', sep=',', header=True, index=False)
+final_df.to_csv(r'C:/Users/Ai2sh/Downloads/tech_test/tech_test/data/results.csv', sep=',', header=True, index=False)
 
 #plotting linegraph
 import matplotlib.pyplot as plt
