@@ -1,0 +1,29 @@
+{
+    "file": "results.csv",
+    "plot": "plot.png",
+    "unique_devices": [
+        "monitor", 
+        "laptop",
+        "freezer",
+        "lamp", 
+        "tv", 
+        "charger"
+    ],
+    "device_counts": {
+        "monitor": 60,
+        "laptop": 30,
+        "freezer": 30,
+        "lamp" : 30,
+        "tv": 30,
+        "charger" : 29
+    },
+    "id_mapping": {
+        "bc86aaec-8a88-48d4-a6cf-23405b4c4dfb": "test_1",
+        "88e0d1dd-304f-4187-b34f-5643ae172c16": "test_2",
+        "6c65bde6-4dbf-4885-932e-1cc9045de431": "test_3",
+        "2b7497cd-d705-45b7-9b1a-a58d0e92d3a6": "test_4",
+        "2177db4f-3df5-4984-8a37-b6080a2956e5": "test_5",
+        "29ef5676-6f02-4f09-b160-fb029b8fd077": "test_6",
+        "9be3e15f-b263-47fe-afa5-d654fc8e885a": "test_7"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "test_1": {
+        "device_type": "monitor",
+        "device_location": "GB",
+        "device_brand": "gigabyte",
+        "device_category": "office",
+        "description": "34 inch gaming monitor",
+        "synthetic": 0
+    },
+    "test_2": {
+        "device_type": "laptop",
+        "device_location": "GB",
+        "device_brand": "lenovo",
+        "device_category": "office",
+        "description": "thinkpad",
+        "synthetic": 0
+    },
+    "test_3": {
+        "device_type": "freezer",
+        "device_location": "GB",
+        "device_brand": "prodis",
+        "device_category": "kitchen",
+        "description": "arctic AR5500W",
+        "synthetic": 0
+    },
+    "test_4": {
+        "device_type": "monitor",
+        "device_location": "GB",
+        "device_brand": "gigabyte",
+        "device_category": "office",
+        "description": "34 inch gaming monitor",
+        "synthetic": 1
+    },
+    "test_5": {
+        "device_type": "lamp",
+        "device_location": "GB",
+        "device_brand": "Philips",
+        "device_category": "office",
+        "description": "filament",
+        "synthetic": 0
+    },
+    "test_6": {
+        "device_type": "tv",
+        "device_location": "GB",
+        "device_brand": "LG",
+        "device_category": "office",
+        "description": "55 inch 4k ultra",
+        "synthetic": 0
+    },
+    "test_7": {
+        "device_type": "charger",
+        "device_location": "GB",
+        "device_brand": "apple",
+        "device_category": "home",
+        "description": "20w charging brick",
+        "synthetic": 0
+    }
+}
